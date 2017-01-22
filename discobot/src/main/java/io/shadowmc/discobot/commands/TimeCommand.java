@@ -17,7 +17,7 @@ public class TimeCommand implements Command {
 		System.out.println("Time Command Action is called on channel: " + event.getTextChannel().toString() );
 		try{
 			Date dt = new Date();
-			
+			event.getAuthor().
 			event.getTextChannel().sendMessage("It is: "+ dt.toString()).queue();;
 			
 		}
